@@ -9,6 +9,6 @@
  -  test_range_dict(init, final)    ---calculates convergance for a range of positive integers using an optimized routine which utilizes previously found values in the range.
 
  # example usages in ipython:
-test_num(1152921504606846976)   #this is 2^60
-test_range(1,10000)
-test_range_dict(1, 10000)
+- test_num(1152921504606846976)   #this is 2^60
+- test_range(1,10000)
+- test_range_dict(1, 10000)
