@@ -34,7 +34,7 @@ def test_num(n):
     if n:
         steps = 0
         new_value = n
-        print(str(n) + '  '),
+        print(str(n) + '  ', end='')
 
         while new_value != 1:
             if steps > 100000:
@@ -48,16 +48,17 @@ def test_num(n):
             if new_value % 2 == 0:
                 new_value = new_value / 2
                 if new_value < old_value:
-                    print(Bcolors.RED + str(new_value) + '  ' + Bcolors.ENDC),
+                    print(Bcolors.RED + str(new_value) + '  ' + Bcolors.ENDC, end='')
                 else:
-                    print(Bcolors.GREEN + str(new_value) + '  ' + Bcolors.ENDC),
+                    print(Bcolors.GREEN + str(new_value) + '  ' + Bcolors.ENDC, end='')
             else:
                 new_value = new_value * 3 + 1
                 if new_value < old_value:
-                    print(Bcolors.RED + str(new_value) + '  ' + Bcolors.ENDC),
+                    print(Bcolors.RED + str(new_value) + '  ' + Bcolors.ENDC, end='')
                 else:
-                    print(Bcolors.GREEN + str(new_value) + '  ' + Bcolors.ENDC),
+                    print(Bcolors.GREEN + str(new_value) + '  ' + Bcolors.ENDC, end='')
         if new_value == 1:
+            print('')
             print(str(n) + ' converged to 1 in ' + str(steps) + ' steps')
     else:
         print("Exiting function.")
