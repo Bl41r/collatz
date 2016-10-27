@@ -11,7 +11,7 @@
 ## Example usages in ipython3:
 ```
 %run collatz.py
-test_num(1152921504606846976)   #this is 2^60
+test_num(1152921504606846976)   # this is 2^60
 test_range(1,10000)
 test_range_dict(1, 10000)
 ```
