@@ -2,11 +2,11 @@
 - https://en.wikipedia.org/wiki/Collatz_conjecture
 
 ## Functions:
-- test_num(n)  #takes a positive integer and calculates the number of steps to converge to 1
+- test_num(n)  # takes a positive integer and calculates the number of steps to converge to 1
 
-- test_range(init, final)  #calculates convergance for a range of positive integers
+- test_range(init, final)  # calculates convergance for a range of positive integers
 
--  test_range_dict(init, final)    #calculates convergance for a range of positive integers using an optimized routine which utilizes previously found values in the range.
+-  test_range_dict(init, final)    # calculates convergance for a range of positive integers using an optimized routine which utilizes previously found values in the range.
 
 ## Example usages in ipython3:
 ```
