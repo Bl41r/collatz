@@ -21,6 +21,6 @@ test_range_dict(1, 10000)
 from timeit import Timer
 t1 = Timer(lambda: test_range(1,100000))
 t2 = Timer(lambda: test_range_dict(1,100000))
-print t1.timeit(number=1)
-print t2.timeit(number=1)
+print(t1.timeit(number=1))
+print(t2.timeit(number=1))
 ```
